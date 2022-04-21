@@ -1,7 +1,7 @@
 package encapsulation;
 
 public class Day3_p1 {
-	 private static final String Suzuki = null;
+	
 	 int year_of_purchase;
 	   String make;
 	   int model;
