@@ -25,7 +25,7 @@ package inheritance;
 		 System.out.println("Three");
 		 System.out.println("");
 	 }
-	                                    //These all extended classes will get called in class B.
+	                                   
  }
  class Four extends One
  {

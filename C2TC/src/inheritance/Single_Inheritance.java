@@ -1,6 +1,6 @@
 package inheritance;
 
-public class SingleInheritance { //Single Inheritance
+public class Single_Inheritance { //Single Inheritance
 
 	public static void main(String[] args) {
 	
