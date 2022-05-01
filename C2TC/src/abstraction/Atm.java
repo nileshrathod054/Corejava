@@ -4,12 +4,12 @@ abstract class Atm {
 
 	abstract void withdraw();
 }
- class DataAbstraction extends Atm {
+
+class DataAbstraction extends Atm {
 
 	@Override
 	void withdraw() {
-		// TODO Auto-generated method stub
-		System.out.println("withdraw successful");
+			System.out.println("withdraw successful");
 	}
 	public static void main(String[] args) {
 		DataAbstraction ob1 = new DataAbstraction();

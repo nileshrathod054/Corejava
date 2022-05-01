@@ -1,4 +1,4 @@
-package first;
+package homework;
 
 public class HelloWorld {
 
