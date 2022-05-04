@@ -25,7 +25,7 @@ public class Library {
 	}
 	void display() {
 		System.out.println("AccessionNumber\tTitle\tAuthor");
-        System.out.println(Acc_Num+"\t\t"+ Title+ "\t"+ Author);
+        System.out.println(Acc_Num+"\t\t  "+ Title+ "\t   "+ Author);
         
 	}
 	public static void main(String[] args) {
@@ -35,10 +35,7 @@ public class Library {
 		obj.display();
 	
 		
-	}
+	    }
 		
 	}
 	
-	
-	
-
