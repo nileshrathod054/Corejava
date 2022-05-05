@@ -33,8 +33,7 @@ public class Library {
 		obj.input();
 		obj.compute();
 		obj.display();
-	
-		
+			
 	    }
 		
 	}
