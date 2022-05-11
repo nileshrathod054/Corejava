@@ -1,16 +1,17 @@
 package exception;
 
-public class ExceptionEx {
+public class ExceptionEx1 {
 	public static void main(String[] args) {
 		try 
 		{
 			int a=0;
 			System.out.println("a="+a);
 			int b=45/a;
-		/*	int c[2] = [1];
+		int	 c[] = {1};
 			c[45]=99;
-			*/
-		}catch(ArithmeticExceptionEx e)
+			
+		}
+		catch(ArithmeticException e)
 		{
 			System.out.println("Divided by 0" +e);
 		}

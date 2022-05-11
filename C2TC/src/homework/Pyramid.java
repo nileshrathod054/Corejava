@@ -1,8 +1,10 @@
 package homework;
 
-public class Test {
+public class Pyramid {
+
 	public static void main(String[] args) {
-		Test t;
-		System.out.println(t.i);
+		
+
 	}
+
 }
