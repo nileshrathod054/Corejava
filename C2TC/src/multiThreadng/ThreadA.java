@@ -6,12 +6,12 @@ public class ThreadA {
 	
 		ThreadB b = new ThreadB();
 		b.start();
-		
+		System.out.println("hello");
 		synchronized(b) {
 			try {
 				System.out.println("Waiting for b to complete .....");
 				b.wait();
-				
+				System.out.println("welcome");
 			} catch(InterruptedException e) {
 				e.printStackTrace();
 			}

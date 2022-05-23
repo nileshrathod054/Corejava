@@ -6,7 +6,7 @@ abstract class Abst {
 	void hai()
 	{
 			
-}
+	}
 }
 
 public class  Shape extends Abst {
