@@ -13,7 +13,7 @@ public class GenericClass<T> {
 
 	
 	public GenericClass(String string) {
-		// TODO Auto-generated constructor stub
+		
 	}
 
 

@@ -1,6 +1,6 @@
 package collectionFramework;
 import java.util.Vector;
-public class VextorEx1 {
+public class VectorEx {
 
 	public static void main(String[] args) {
 	
