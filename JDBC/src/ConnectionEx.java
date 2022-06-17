@@ -1,9 +1,5 @@
-import java.sql.DriverManager;
+import java.sql.*;
 import java.sql.SQLException;
-
-import com.mysql.jdbc.Connection;
-import com.mysql.jdbc.ResultSet;
-import com.mysql.jdbc.Statement;
 
 public class ConnectionEx {
 
@@ -11,11 +7,11 @@ public class ConnectionEx {
 
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
 		System.out.println(1);
-		Class.forName("com.mysql.jdbc.Driver");
+		Class.forName("com.mysql.cj.jdbc.Driver");
 		System.out.println(2);
 		Connection con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/test", "root", "root");
 		System.out.println(3);
-		String sql = "insert into student values(7,'Shridhar','Amt')";
+		String sql = "insert into students values(7,'Shridhar','Amt')";
 		Statement stmt = (Statement) con.createStatement();
 		stmt.executeUpdate(sql);
 		System.out.println("data inserted successfully");
