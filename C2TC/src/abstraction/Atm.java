@@ -5,7 +5,7 @@ abstract class Atm {
 	abstract void withdraw();
 }
 
-class DataAbstraction extends Atm {
+ class DataAbstraction extends Atm {
 
 	@Override
 	void withdraw() {

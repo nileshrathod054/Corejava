@@ -15,7 +15,7 @@ public class ConnectionEx {
 		Statement stmt = (Statement) con.createStatement();
 		stmt.executeUpdate(sql);
 		System.out.println("data inserted successfully");
-		sql = "Select * from employee";
+	/*	sql = "Select * from employee";
 		ResultSet rs = (ResultSet) stmt.executeQuery(sql);
 		System.out.println(rs);
 		while (rs.next()) {
@@ -26,6 +26,7 @@ public class ConnectionEx {
 			System.out.println(name);
 
 			System.out.println("---------------------");
-		}
+		}	*/
+		
 	}
 }
